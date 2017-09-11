@@ -52,7 +52,7 @@ a:hover {
   color: white
 }
 
-header {
+header.main-header {
   text-align: center;
   background: url('images/rainbow.png') no-repeat top center ;
   background-size: cover;
@@ -152,9 +152,9 @@ a.social {
   opacity: .5;
   transition: all .25s;
 }
-a.twitter {
+/*a.twitter {
   background-image: url(images/twitter.svg);
-}
+}*/
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
@@ -206,4 +206,27 @@ a.social:hover {
     margin: 40px auto;
   }
 
+}
+
+/*new css added for contactinfo.html*/
+.contact-main{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  align-items:flex-start;
+}
+
+.contact-list{
+  font-size: 40px;
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.info{
+  padding-left: 15px;
+}
+
+div#thanks-note{
+  margin-left: auto;
 }
