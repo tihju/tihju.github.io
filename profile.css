@@ -230,3 +230,24 @@ a.social:hover {
 div#thanks-note{
   margin-left: auto;
 }
+
+/*css for resume page*/
+.resume-main{
+  margin: 20px;
+  padding: 25px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  /*align-items: flex-start;*/
+}
+.education{
+  list-style-type: none;
+}
+
+.education .projects{
+  display: flex;
+  flex-direction: column;
+  /*flex-wrap: wrap;*/
+  align-items: flex-start;
+}
